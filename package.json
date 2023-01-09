@@ -1,0 +1,20 @@
+{
+  "name": "ruby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "play.js",
+  "dependencies": {
+    "playwright-to-istanbul": "^1.0.0",
+    "puppeteer": "^19.4.1",
+    "v8-to-istanbul": "^9.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  },
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; initial-scale=1.0; charset=UTF-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <meta http-equiv="MSThemeCompatible" CONTENT="yes" />
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+        <script src="sample.js"></script>
+        <style type="text/css">
+            body {background-color: #ccc;}
+            p {font-size: 20px; color: red;}
+        </style>
+        <style type="text/css">
+            body {color: #ddd;}
+            h3 { background-color: red;}
+        </style>
+        <title>
+            Sample
+        </title>
+    
+    </head>
+
+    <body>
+            
+        hello
+        <p>今日の日付は: <%= Date.today %></p>
+        <h1>foo</h1>
+        <button type="button" onclick="ShowAlart()">ここをクリック
+        <script>
+        function ShowAlart() {
+            alert("Hello world!!");
+        }
+        console.log("hello");
+        </script>
+        <script>
+        function ShowAlart2() {
+            alert("Hello world!!");
+        }
+        console.log("hello2");
+        </script>
+    </body>
+</html>
