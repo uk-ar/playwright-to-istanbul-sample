@@ -9,9 +9,14 @@
     "v8-to-istanbul": "^9.0.1"
   },
   "devDependencies": {
-    "@playwright/test": "^1.29.2"
+    "@playwright/test": "^1.29.2",
+    "eslint": "^8.31.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-html-erb": "^1.0.1",
+    "patch-package": "^6.5.1"
   },
   "scripts": {
+    "postinstall": "patch-package",
     "test": "npx playwright test"
   },
   "keywords": [],
