@@ -2,6 +2,7 @@ const url = "http://localhost:8099/hello.erb";
 
 const puppeteer = require('puppeteer');
 const p2i = require("puppeteer-to-istanbul");
+let foo;
 (async () => {
     console.log(0);
     const browser = await puppeteer.launch({

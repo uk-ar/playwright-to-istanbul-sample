@@ -11,6 +11,6 @@ s = WEBrick::HTTPServer.new(config)
 s.config[:MimeTypes]["erb"] = "text/html"
 
 trap(:INT){
-    s.shutdown
+s.shutdown
 }
 s.start
