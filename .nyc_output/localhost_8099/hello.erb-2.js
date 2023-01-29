@@ -1,6 +1,7 @@
 
         function ShowAlart2() {
-            alert("Hello world!!");
+            console.log("Hello world!!");
         }
         console.log("hello2");
+        ShowAlart();
         

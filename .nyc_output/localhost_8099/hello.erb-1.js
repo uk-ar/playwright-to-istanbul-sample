@@ -1,7 +1,7 @@
 
         function ShowAlart() {
-            alert("Hello world!!");
+            console.log("Hello world!!");
         }
-        2023-01-29
+        "2023-01-29"
         console.log("hello");
         
